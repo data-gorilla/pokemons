@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poke-dashboard"
+version = "0.1.0"
+description = ""
+authors = ["data-gorialla <dreshald@gmail.com>"]
+readme = "README.md"
+packages = [{include = "poke_dashboard", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.9.7"
+streamlit = "^1.20.0"
+deltalake = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
