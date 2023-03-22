@@ -1,3 +1,3 @@
 # Pokemons
 
-A tiny POC pokemon-pipeline and a corresponding dashboard in streamlit.
+A tiny POC pokemon-pipeline in pyspark and a corresponding dashboard in streamlit.
